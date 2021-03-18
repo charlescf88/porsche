@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.accueil
+  {  height: 850px;
+    width: 100%;
+     background-image: url(porsche-background.png);
+     background-repeat: no-repeat;
+     background-size: 110%;
+     display: block;
+     position:relative;
+     overflow: hidden;
+   
+ }
+.logo img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 300px;
+    height:auto;
+    left: 50px;
+    top: 30px;
+    right:50px
+
+}
+.toggle-button {
+    display: block;
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    color: #ff7b00;
+    cursor: pointer;
+}
+.toggle-button span {
+    width: 35px;
+    height: 3px;
+    display:block;
+    color: #ff7b00;
+    background-color: #e0851c;
+    margin-top: 7px;
+}
+
+.fleche-home{
+    bottom: 7%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    color: #ff7b00;
+    display: block;
+    cursor: pointer;
+}
+
+.description {
+    display: block;
+    background-color: #242424;
+}
+ .search-img {
+     opacity: 0;
+     position: absolute;
+ }
+ .description{
+     width: auto;
+     height: auto;
+     display: block;
+     padding: 20px ;
+     padding-left: 30px;
+     position: relative;
+ }
+ .description h2 {
+     width: auto;
+    font-family: 'Arvo', serif;
+    color :#919191;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 6px;
+    opacity: 0.8;
+ }
+ .description h2 span {
+     color: #ff7b00;
+ }
+ .description h1 {
+    font-family: 'Arvo', serif;
+    color: #FFFF;
+    font-size: 40px;
+    font-weight: 200;
+ }
+ .description h1 span {
+     font-weight: bold;
+ }
+ .span-left {
+     position: absolute;
+     display: block;
+     width: 10px;
+     height: 150px;
+     background-color: #ff7b00;
+     left: 0px;
+ }
+ p{
+     font-family: sans-serif;
+     color:#FFFF ;
+     font-size:15px;
+     margin: 0 auto;
+     font-weight: 100;
+     padding: 30px;
+     text-align: left;
+ }
+ .details {
+    font-family: 'Arvo', serif;;
+    width: 150px;
+    height: 35px;
+    background-color:rgba(255,123,0,0.4);
+    color: #fff;
+    border: solid 2px #ff7b00;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 14px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+ }
+.details:hover{
+    transform: scale(1.025);
+}
+.fleche{
+    width:5px;
+    height: auto;
+    display: block;
+    margin-left: 30px;
+    padding-top: 30px;
+    
+}
+.fleche img {
+    width: 120px;
+    height: auto;
+}
+.porscheimg{
+    margin-top: 30px;
+}
